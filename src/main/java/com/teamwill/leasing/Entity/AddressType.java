@@ -23,9 +23,9 @@ public class AddressType {
     private Long id;
     @Column(length = 30)
     private String name;
-    @JsonIgnore
-    @OneToMany(mappedBy = "addressType")
-    private List<Address> addresses;
+//    @JsonIgnore
+//    @OneToMany(mappedBy = "addressType")
+//    private List<Address> addresses;
 
 
 }
